@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#header{
+    width: 1000px;
+    margin: 0 auto;
+    height: 125px;
+    background: linear-gradient(white 55%, #7c7cea 20%);
+    
+}
+
+.he img{
+    width: 90px;
+    height: 90px;
+    vertical-align:middle;
+}
+.he h1{
+    font-size: 45px;
+    color: rgb(72, 71, 71);
+}
+
+.he2 h2{
+    font-size: 30px;
+    color: white;
+    margin-left: 25px;
+    margin-top: -7px;
+}
