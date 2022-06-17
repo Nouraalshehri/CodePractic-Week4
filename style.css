@@ -2,31 +2,167 @@
     margin: 0;
     padding: 0;
 }
-body{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+body {
+    font-family: Arial, Helvetica, sans-serif
 }
 
-#header{
-    width: 1000px;
-    margin: 0 auto;
-    height: 125px;
+.header {
     background: linear-gradient(white 55%, #7c7cea 20%);
-    
+
 }
 
-.he img{
-    width: 90px;
-    height: 90px;
-    vertical-align:middle;
+.he img {
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
 }
-.he h1{
+
+.he h1 {
     font-size: 45px;
     color: rgb(72, 71, 71);
 }
 
-.he2 h2{
+.he2 h2 {
     font-size: 30px;
     color: white;
     margin-left: 25px;
     margin-top: -7px;
 }
+
+#collu h3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#collu {
+    margin-top: 1em;
+}
+
+#collu p {
+    font-size: 14px;
+}
+
+
+.dns-header img {
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+}
+
+.dns-header {
+    color: blue;
+    display: inline-flex;
+
+}
+
+.phone-pic img {
+    width: 30px;
+    height: 30px;
+    margin-top: -2em;
+
+}
+
+.phone-pic {
+    margin-left: 53em;
+
+}
+
+.phone-pic h5 {
+    font-size: 10px;
+    text-align: center;
+}
+
+#collu4 {
+    color: black;
+    font-size: 10px;
+    margin-top: -6em;
+    margin-left: 4em;
+
+}
+
+.btn-info {
+    background-color: rgb(106, 106, 212);
+    color: white;
+    width: 177px;
+    border-style: none;
+}
+
+.btn-primary {
+    background-color: rgb(249, 197, 101);
+    color: white;
+    margin-top: 3px;
+    border-style: none;
+
+}
+
+.text-of-img {
+    background-image: url("ad_background.png");
+    width: 190px;
+    height: 230px;
+}
+
+.text-of-img h3 {
+    color: white;
+    display: flex;
+    text-align: center;
+    position: absolute;
+    margin-left: 2.3em;
+    margin-top: 1em;
+}
+
+.btn-success {
+    background-color: cornflowerblue;
+    color: white;
+    width: 170px;
+    position: absolute;
+    margin-left: 9px;
+    bottom: 0.5em;
+    border-color: black;
+}
+
+.sm-img {
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    top: 65%;
+    left: 1.4em;
+    right: 80%;
+    transform: translate(50%, 50%);
+}
+
+.imgclient {
+
+    margin-left: 19em;
+}
+
+#ads {
+    border-style: groove;
+    border-color: blue;
+    border-width: 10px;
+}
+
+#ads img {
+    width: 160px;
+    height: 140px;
+    margin-top: 1em;
+    margin-left: 5em;
+}
+
+#text-of-Ads {
+    margin-left: 17em;
+    margin-top: -8em;
+}
+
+a {
+    text-decoration: none;
+}
+footer {
+    padding: 3px;
+    background-color: rgb(62, 100, 172);
+    color: white;
+    margin-top: 1em;
+  }
+  footer a{
+    color: black;
+  }
